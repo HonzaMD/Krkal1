@@ -1,0 +1,2 @@
+copy /b hlavicka+podlozi2.dpc+menu2.bin+icomenu.bi+mys.bi+ram.bi+barevny.fnt+brvn2.fnt+klavesy.dat+prettl.bi menu.dat
+copy /b menu.dat+cerveny.bi+fialovy.bi+mnu.bi+brf.bi4+font2.dat+icobrf.bi menu.dat

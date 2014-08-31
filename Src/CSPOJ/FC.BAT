@@ -1,0 +1,1 @@
+fc.exe -m dpc1.c dpc2.c>dpc.c

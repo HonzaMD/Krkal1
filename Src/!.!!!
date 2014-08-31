@@ -1,0 +1,54 @@
+
+environ.dat
+-----------
+Velikost
+10              hlavicka
+768             paleta
+4080            constenv (TY) 12obrazku
+104720          animace badiku
+1               pocet
+pocet*26        nazvy environu
+      4         offset ve fajlu
+      1         kolik veci se bude navic animovat=x
+
+environ:
+169*340=57460   obrazky
+x               jaky veci se navic animujou
+340*331=112540  normalni animace
+340*x           animace navic
+
+
+level
+-----
+1               usek grafiky
+1               usek hudby
+1               topv
+1               topp
+1               topgp
+2               velikost uvodniho textu (kdyz je velka tak je to obrazek)=q
+2               velikost konecneho textu (kdyz je velka tak je to obrazek)=q
+2               ty.x,ty.y
+1408            patra
+topv*6          veci
+topp*22         prepinace
+topgp*?         globalni prepinace
+q               uvodni text(obrazek)
+q               konecny text(obrazek)
+
+
+GlobPinace
+----------
+
+6 *  (
+      1               typ
+                 0=vec v oblasti  1=zab pot 2=sebrani  3=zap-vyp  4=tva prem
+                 5..9 - Kdyz to neplati
+                 255 - nic (zadna podminka)
+      1               vec1          pocet      typ         v        vec1
+      1               vec2                    pocet                 vec2
+      1               x1
+      1               y1
+      1               x2
+      1               y2
+  )  = 42
+22         jako prepinac

@@ -1,0 +1,159 @@
+<head>
+</head>
+
+
+<body bgcolor=#000000 text=#00ff00>
+
+<h2>Manual k Editoru Levlu</h2>
+
+<tt><center><img src=pic/kbrneni.gif>&nbsp&nbsp<img src=pic/khrbol.gif>&nbsp&nbsp<img src=pic/kbomba.gif></center></tt>
+
+<p>Muzes Editovat jen levly ze hry, ktere jsi uz dohral. Editovani uzivatelskych levlu nebude
+fungovat ! Pro editovani levlu si vytvor noveho Hrace se jmenem MAFRAL KRKAL :-)
+
+<p>V plne verzi hry nebude mozne editovat levly vytvorene autory.
+   Editovani techto levlu je naprogramovano provizorne a proto musite
+   dodrzovat nektere zasady :<ol>
+<li>Musite mit v adresari se hrou soubor HLAVICKA a neprerusenou radu
+      souboru s levly (A to od prvniho). Pokud je nektery level vynechan,
+      tak vsechny dalsi budou ignorovany. Pr.:"1.LV","2.LV",... 
+neprerusene az treba ..."47.LV".
+<li>Musite editovat levly tak, abyste tuto radu nepourusili. Pr. : Pokud
+      mate radu od 1 do 47 muzete editovat levly od 1 do 48. Level 49 budete
+      moct editovat tepreve az naeditujete level 48 atd.
+</ol>
+
+
+<h2>Ovladani Editoru</h2>
+<ul>
+<img src=krkal1.gif align=right>
+<li>Esc    - Spatky do menu (Editor se zapta jestli chcete level sejvnout)
+<li>F2     - Sejvnuti levlu
+<li>Ctrl+T - Pojmenovani levlu a napsani uvodniho a konecneho textu
+<li>Ctrl+N - Smazani levlu (Pro editaci noveho)
+<p>
+<li>Sipky  - Scrollovani obrazu
+<li>+,-    - Zmena rychlosti scrollingu
+<p>
+<li>1 az 8 - Rychle prepinani mezi vecmi
+<li>Mezera - Editace vlastnosti nekterych veci
+<p>
+<li>G nebo Ctrl+Ins  - Getnuti casti levlu
+<li>` nebo Shift+Ins - Putnuti getnute casti (Kopirujete tak casti levlu)
+<p>
+<li>Caps Lock   - Podlahy a hlinu kreslite po ctvercich 3x3
+<li>Scroll Lock - Zapnuti automatickych podlah - podlahy vytvari mezi sebou
+                 nebo vodou ci ledem hranice
+</ul>
+
+<p>Prave tlacitko mysi slouzi bud jako mazani veci, ci k ruseni rozpracovanych
+akci - "jakysi ESC".
+
+<p>Levly editujte tak, aby zadny zivy, ci nezivy predmet nemohl opustit
+level. Take dela a lasery nesmeji mirit za hranici levlu. Toto vse by 
+vedlo k nepredpovidatelnym dusledkum. (Pad systemu). Je vzdy dobre obehnat
+level neznicitelnou stenou.<br><br><br>
+
+<h3><img src=pic/kstena.gif align=right>
+Jak vkladat veci do levlu ?</h3><ol>
+
+<li>Vyberte skupinu predmetu cisly 1..8
+<li>Vyberte predmet ze skrolovaciho panelu dole
+<li>Levym tlacitkem umistujte predmet do levlu
+</ol>
+
+<p>Caps Lock vam usetri praci pri umistovani Podlah a Hlin - kreslite po oblastech 3x3.
+Vyuzivejte automatickou stenu (1. stena ve skupine 4) - do levlu se pridavaji
+steny tak aby na sebe navazovaly.
+
+<p>Predmet z levlu odstranite Pravym tlacitkem. I zde lze pouzit Caps Lock
+<br><br><br>
+
+<h3>Urceni zakladni podkladove podlahy</h3>
+
+Kdyz smazete podlahu nebo kdyz zacinate novy level, pouzije se zakladni
+podkladova podlaha. Vlevo dole je tato podlaha nakreslena.
+Kliknete-li na ni, muzete si z veci vybrat podlahu jinou.<br><br><br>
+
+
+<h3>Editovani specialnich vlastnosti nekterych veci</h3>
+Ukazte na vec, u ktere chcete menit vlastnosti a zmacknete mezeru
+nebo prostredni tlacitko mysi. 
+
+<p><img src=pic/kdelo.gif align=left>
+U pasu, laseru, del v menu zvolte
+jestli budou zapnuty ci vypnuty. U potvor se voli jestli jsou pravo
+     nebo levotocive nebo jejich rychlost. U teleportu ukazte na misto,
+     kam maji teleportovat.
+
+<p>U Prepinacu je to slozitejsi : Nastavte kdy bude prepinac reagovat :
+     Pri zapnuti, pri vypnuti nebo pri prepnuti (Pozor tady se lisi chovani
+     fotobunky, naslapne podlahy a klasickeho prepinace (Ten napriklad
+     pokud reaguje pouze na zapnuti uz nejde vypnout))
+     Prepinac muze ovlivnovat 6 veci. Kazda ma svoji skupinu ikonek :
+<ul>
+<li>X    - Prepinac nic nedela
+<li>A->B - Prepinac meni vec na jinou (Pak pripadne zase zpatky)
+              nebo vec objevuje (Ukazte misto a pak vyberte vec, na
+              kterou se to ma menit)
+<li>A->X - Prepinac vec mizi (Pak pripadne zase objevuje)
+              (Ukazte na misto a pokud tam ta vec jeste neni musite ji
+              vybrat z veci)
+<li>o o  - On - Off - Prepinac zapina a vypina nejakou vec (Nepr.
+              Laser nobo Pas) (Ukazte na tu vec)
+<li><--> - Jeste neni doprogramovano (Zapinani a vypinani soupatelne veci)
+</ul>
+
+<br><br>
+
+<a name=kopirovani></a>
+<h2>Kopirovani Levlu</h2>
+
+Kopirovani levlu je trosicku slozitejsi zalezitost. Proto v dalsim textu 
+vysvetlim jak postupovat, kdyz editujete levly a chcete je dat k otestovani 
+svym kamaradum nebo treba nam.
+
+<p><img src=pic/ksave.gif align=left>
+Sobor <i>Krkal.lev</i> obsahuje vsechny levly ve hre plus jejich nazvy.
+Hra samotna cte levly z tohoto souboru a potrebuje jen tento soubor.
+Soubory <i>cislo.lv</i> vytvari editor. Kazdy soubor obsahuje jeden level
+a neni v nich uveden nazev levlu. Je naprosto nutne abyste (pokud chcete 
+editor pouzivat) meli neprerusenou radu techto souboru (viz nahore).
+Pri ukladani levlu editor kopiruje soubory <i>cislo.lv</i> do souboru
+<i>Krkal.lev</i>.
+
+<p>
+Jak postupovat pri kopirovani levlu si ukazeme na prikladu :
+
+<p>Rekneme, ze mate naeditovano 66 levlu, jsou to tedy nutne levly
+od 1 do 66 a jsou ulozeny v souborech <i>1.lv</i> az <i>66.lv</i>.
+Vas kamarad ma jen 62 levlu (1 az 62) a vy mu chcete nahrat levly
+<i>65.lv</i> a <i>66.lv</i>. 
+
+<ol>
+<li>Prineste mu tedy soubory <i>65.lv</i> a <i>66.lv</i> a zapamatujte si 
+jmena techto levlu.
+
+<li>Ted mate dve moznosti : <img src=pic/kveci.gif align=right>
+a) zkopirujte vase levly na konec jeho rady 
+levlu (65 -> 63, 66 -> 64) (znovu opakuji, ze rada levlu musi byt souvisla)<br>
+b) Prepiste vasimi levly nektere jeho levly (napr.: 65 -> 44, 66 -> 45)
+
+<li>Dale zeeditujte v Editoru nektery nezmeneny level (napr. prvni). Level nijak
+nemente, jenom ho ulozte (F2) a ukoncete editor. Timto krokem se provede
+aktualizace souboru <i>Krkal.lev</i> a nove levly se stanou pristupnymi.
+
+<li>Nakonec pomoci Editoru napiste k novym levlum jejich spravna jmena.
+</ol>
+
+
+
+<p>&nbsp
+
+<center>
+<p><a href=krkalakt.html>Aktualni Info</a> | <a href=krkalhra.html>Popis Hry</a> | 
+<a href=krkalprg.html>Popis a chyby</a> | <a href=krkalovl.html>Ovladani</a> | 
+<a href=krkalvec.html>Popis Veci</a> | <a href=krkaled.html>Editor</a> | 
+<a href=krkaldwn.html>Stazeni Krkala</a> | <a href=krkalaut.html>Autori</a>
+
+</body>

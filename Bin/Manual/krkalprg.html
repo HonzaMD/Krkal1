@@ -1,0 +1,110 @@
+<head>
+</head>
+
+
+<body bgcolor=#000000 text=#00ff00>
+
+<h2>Popis Programu a jeho chyb</h2>
+
+<tt><center><img src=pic/kbomba.gif>&nbsp&nbsp<img src=pic/ktlport.gif>&nbsp&nbsp<img src=pic/kkysel.gif>&nbsp&nbsp<img src=pic/kjabko.gif></center></tt>
+
+<p>Minimalni konfigurace pro Krkala je PC 486. Pokud budes poustet Krkala
+na pomalejsim pocitaci, budes mit ruzne problemy. Viz dale. Na soucasnych
+pocitacich se na druhou stranu mohou vyskytovat mensi problemy s grafickou kartou, ale hlavne
+Krkal jiz nebezi se zvukem! (potraba je DOS a ISA zvukova karta)
+
+<p><font color=#ffcc00>Vynikajici alternativou je spustit Krkala pod emulatorem DOSu - 
+DOSBox (<a href=http://dosbox.sourceforge.net/ target=_top>http://dosbox.sourceforge.net/</a>).
+Bezi vse v pohode, plynule a krasne, vcetne hudby a zvuku! Testoval jsem to na
+DOSBoxu verze 0.63, pri taktovani na 7500 cyklu.</font>
+
+
+<p>Dnes je Krkal temer hotovy po programatorske strance. Az nato, ze
+zaroven jak se objevuji novejsi pocitace, objevuji se i nove chyby, ktere
+na 486kach neexistovaly :-(.
+
+<p>Po graficke strance je program jeste nedokonceny. Na Krkalovi
+bohuzel nedelal zadny profesionalni grafik a temer veskerou grafiku
+jsem tedy byl nucen nakreslit ja, a proto taky ta grafika vypada tak
+jak vypada. :-( 
+
+<p><img src=pic/kled.gif align=left>
+Dalsim problemem Krkala je Hudba. Krkal prehrava velmi kvalitni hudbu
+ve formatu s3m. Vsechno funguje krasne, ale bohuzel jenom pod DOSem. 
+Nebo pod emulatorem DOSBox! :)
+Ve Windowsech Krkal, pokud je hudba zapnuta, okamzite spadne spolu s
+celyma slavnyma Windousama. (Hudba se vypina programem "<i>msetup.exe</i>".)
+
+<br clear=all>
+<p>Pokud spoustite Krkala pod Dosem, je treba mit nainstalovany ovladac
+expanded memory. Tedy v souboru "<i>config.sys</i>" musite mit radky :
+<br><tt>Device=Windows\himem.sys
+<br>Device=Windows\emm386.exe ram</tt><br>
+Dale je treba mit jeste nainstalovany ovladac pro mys a pripadne
+i pro zvukovou kartu, ale s tim uz ti poradit nemuzu, protoze se to dela
+pokazde trochu jinak.
+
+<p>Pokud spoustite Krkala pod Windows XP, nezapomente povolit expanded memory 
+ve vlastnostech programu Krkal.exe!</p>
+
+<br><br><br>
+<h2>Problemy :</h2>
+
+<p><img src=pic/kbomba.gif align=left>
+Chyba s bombou. Jednou se nam pod Windousama stalo, ze jakmile jsi
+sebral bombu, tak jsi ji i polozil a pravdepodobne jsi i vybuchl. Je
+to zpusobeno "zapadlou" klavesou Shift na kterou je nadefinovano
+pouziti vybrane veci z inventare. Neustale zmackly Shift tedy neustale
+pouzival Bombu. V pripade teto chyby tedy doporucuju v menu Config
+nastavit klavesu na pouziti vybrane veci na neco jineho, nez Shift.
+Ale vypada to (podle nasich nejnovejsich vyzkumu), ze staci, ktyz
+nebudes spoustet level mysi, ale Entrem. Proc Windousy zaroven s mysi
+mackaji Shift, to nechapu .., asi aby to bylo Dobry.
+(Podle nasich super nejnovejsich vyzkumu si tim ale uplne nepomuzete)
+
+
+<p>Silene trhany Scrolling - nastava ve Windousech u nekterych grafickych
+karet a u nekterych ovladacu (zpravidla u tech novejsich) - Hrajte Krkala 
+pod DOSem na starem kompu nebo pod emulatorem DOSBox!
+
+<p><img src=pic/kstena2.gif align=right>
+Neni dostatek pameni (v DOSu) - Krkal potrebuje predevsim EMS (expanded memory)
+Pokud program hlasi, ze nema dostatek konvencni pameti, je to pravdepodobne proto, 
+za nema EMS a snazi se veci, ktere by jinak dal do ni nacpat do konvencni pameti.
+Potrebujete nainstalovat ovladac pro EMS (viz vyse)
+<br>(ve Windows XP) - povolte expanded memory ve vlastnostech programu Krkal.exe!
+
+<p>Krkal nelze spustit - Mozne priciny : <ul>
+      <li>Spatne nakonfigurovany zvuk - Spustte MSETUP
+      <li>Nekompatibilni ovladac EMS pameti (v DOSu) - Pouzijte EMM386
+	nebo nastavte v setupu "no sound".
+      <li>Ve Windows neni povolena Expanded memory.
+      <li>Mate pomaly pocitac (386 nebo horsi 486) - Snizte prehravaci frekvenci v setupu, nebo vypnete zvuk
+      uplne ("no sound")).
+      <li>Poustite Krkala se zapnutym zvukem ve Windowsech - vypnete zvuk.
+      <li>Chybi vam nejaky soubor - To mate smulu.</ul>
+<p>Krkal casto pada - Stava se u pomalejsich pocitacu, ktere nestihaji
+      prehravat zvuky a hudbu - Nastavte nizsi prehravaci frekvenci nebo
+      vypnete zvuk.
+<p>Krkal pada pri spusteni nebo ukonceni Editoru Levlu - zpusobeno
+novou chybou ve verzi 0.9.1 - dokud to neopravime, muzete zkusit soubor
+<a href=http://www.volny.cz/m.d./programs/koldexe.zip>Krkal.exe</a> ze stare verze.
+<p>Nektere levly, kde je priliz mnoho pohybujicich se objektu se na
+      pomalejsich pocitacich znacne zpomali. Nez dohrajete takovy level
+      nastavte si v MSETUPU "no sound", podstatne se to tim zrychli.
+
+
+
+<p>Jinak nam nejsou zname zadne chyby. V pripade, ze bys nejakou dalsi 
+jeste objevil napis nam Maila.
+
+
+<p>&nbsp
+
+<center>
+<p><a href=krkalakt.html>Aktualni Info</a> | <a href=krkalhra.html>Popis Hry</a> | 
+<a href=krkalprg.html>Popis a chyby</a> | <a href=krkalovl.html>Ovladani</a> | 
+<a href=krkalvec.html>Popis Veci</a> | <a href=krkaled.html>Editor</a> | 
+<a href=krkaldwn.html>Stazeni Krkala</a> | <a href=krkalaut.html>Autori</a>
+
+</body>
