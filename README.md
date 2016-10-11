@@ -8,8 +8,8 @@ KRKAL 1
 
 Hra Krkal 1.0 je logicko-akční hra pro DOS, kde si vyzkoušíte ovládání
 jedné ze tří postaviček, pomůžete jí vyřešit všechny nástrahy a dostat
-se do exitu. Hra je založena právě na těch nástrahách (herních objektech)
-- jsou rozmanité, je jich velké množství a vzájemně se doplňují.
+se do exitu. Hra je založena právě na těch nástrahách (herních
+objektech) - jsou rozmanité, je jich velké množství a vzájemně se doplňují.
 V Krkalovi najdete například klasické klíče a zámky, dopravní pásy,
 led, výbušniny, příšery, přepínače, lasery směrované zrcadly, magnety
 a spoustu dalšího. Díky tomu mohou vznikat velmi rozmanité levely.
