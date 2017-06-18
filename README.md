@@ -1,9 +1,7 @@
-﻿========================================================================
-KRKAL 1
-========================================================================
+﻿# KRKAL 1
 
 
-##O PRODUKTU
+## O PRODUKTU
 
 
 Krkal 1.0 je logicko-akční top-down hra pro DOS, kde si vyzkoušíte ovládání
@@ -21,7 +19,7 @@ Hra Krkal 1 byla vytvořena v letech 1996 až 1997. Novější verze (2.4)
 vznikla v roce 2004 a k 20tiletému výročí chystáme znovu-vydání obou her.
 
 
-##LICENCE
+## LICENCE
 
 
 * Program Krkal 1.0 je volně ke stažení, můžete program dál 
@@ -35,7 +33,7 @@ vznikla v roce 2004 a k 20tiletému výročí chystáme znovu-vydání obou her.
 * Veškerá další autorská práva vyhrazena (c) 2017
 
 
-##AUTOŘI
+## AUTOŘI
 
 
 * Jan Krček (MD) md@krkal.org
@@ -44,7 +42,7 @@ vznikla v roce 2004 a k 20tiletému výročí chystáme znovu-vydání obou her.
 * Jan Frolík
 
 
-##INTERNETOVÉ STRÁNKY
+## INTERNETOVÉ STRÁNKY
 
 
 www.krkal.org  
